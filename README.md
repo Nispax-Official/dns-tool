@@ -23,3 +23,5 @@ Open http://localhost:3000
 Notes:
 This is a legit DNS utility, not a hacking tool.
 Built by NISPAX InfoTech
+
+Join NISPAX InfoTech Discord: https://discord.gg/6HFySAMv6K
