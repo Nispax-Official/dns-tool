@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background: #050510;
+  color: #e5e7eb;
+  font-family: Inter, monospace;
+  overflow-x: hidden;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 24px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1100px;
+  padding: 28px;
+  background: rgba(15,15,30,.6);
+  backdrop-filter: blur(14px);
+  border-radius: 22px;
+  box-shadow: 0 0 50px rgba(168,85,247,.35);
+}
+
+/* Side containers */
+.ad-side {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Bottom container */
+.ad-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Fixed image styling */
+.fixed-ad {
+  display: block;
+  border-radius: 16px;
+  max-width: 100%;
+}
+
+.fixed-ad.vertical {
+  max-width: 160px;
+}
+
+.fixed-ad.horizontal {
+  max-width: 728px;
+}
+
+/* Hide side images on small screens */
+@media (max-width: 1300px) {
+  .ad-side {
+    display: none;
+  }
+}
+
+/* Inputs */
+input, select {
+  background: #0b0b1a;
+  border: 1px solid #a855f7;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 12px;
+}
+
+button {
+  background: linear-gradient(135deg,#7c3aed,#9333ea);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
