@@ -11,7 +11,7 @@ export const metadata = {
     siteName: "DNS-Tools by NISPAX",
     images: [
       {
-        url: "/og.png",
+        url: "https://cdn.discordapp.com/attachments/1426246195449299067/1477996620686823485/discord-card.jpg?ex=69a6cb1e&is=69a5799e&hm=1d39530cab0d52fe247acb8282c98da6d4291f2564207cdb8579cfa6839ff172&",
         width: 1200,
         height: 630,
       },
